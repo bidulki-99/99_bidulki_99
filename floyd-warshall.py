@@ -1,4 +1,4 @@
-def floyd-warshall(graph):
+def floyd_warshall(graph):
     dist = [[float('inf')] * (n+1) for _ in range(n+1)]
 
     for i in range(1, n+1):
