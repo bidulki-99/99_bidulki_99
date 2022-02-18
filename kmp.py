@@ -1,6 +1,3 @@
-import sys
-sys.setrecursionlimit(1000000)
-
 t = input()
 p = input()
 
