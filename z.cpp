@@ -1,6 +1,6 @@
 int z[1000001];
 
-void z(string s) {
+void (string s) {
   int n = s.size();
     z[0] = n;
     for (int i = 1, l = 0, r = 0; i < n; i++) {
