@@ -17,7 +17,7 @@ def kmp(i, j):
     global find
     for i in range(len(t)):
         if j > 0 and t[i] != p[j]:
-            j = table[j-1]
+            j = table[j - 1]
         if t[i] == p[j]:
             if j == len(p) - 1:
                 find += 1
@@ -26,6 +26,7 @@ def kmp(i, j):
             else:
                 j += 1
 
+failure(p, table)
 kmp(0, 0)
 print(find)
 for i in f:
